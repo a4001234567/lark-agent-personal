@@ -1,0 +1,3 @@
+[submodule "server"]
+	path = server
+	url = https://github.com/a4001234567/yet-another-lark-mcp
