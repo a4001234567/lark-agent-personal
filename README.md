@@ -41,11 +41,15 @@ MCP服务器源码: [server/](server/) (→ [yet-another-lark-mcp](https://githu
 > 如需适配多人场景也可以此为基础构建精简版本工具。
 > 同时优化输出格式以精简token消耗。
 
+![课表导入日程演示](img/demo-nku-calendar.gif)
+
 ---
 
 ## 可扩展性
 飞书与其他channel不同之处在于其丰富的工具支持，这也带来其他第三方数据与操作的适配问题，我们希望用户可以通过MCP服务器实现接入其他的第三方数据源。
 在这一项目中，我们以课表导入日程、佳明健康数据同步、基于日程安排的身心健康分析为例。通过安装skill，并调用MCP服务器的auth token，可实现无感知的访问，避免重复授权。
+
+![授权共享与代理监控演示](img/demo-auth-sharing.gif)
 
 ---
 
@@ -67,3 +71,5 @@ MCP服务器源码: [server/](server/) (→ [yet-another-lark-mcp](https://githu
   - 访问恶意链接获取认证信息
 
 并进行了实际验证。
+
+![卡片隐写注入演示](img/demo-card-injection.gif)
